@@ -1259,15 +1259,15 @@ audio {
 }
 
 .cake-cover {
-	margin-top: 50px;
+	margin-top: 200px;
 }
 .message {
-	margin-top: 200px;
+	margin-top: 350px;
 	display: none;
 }
 .message p {
 	font-family: 'Signika', sans-serif;
-	font-size: 30px;
+	font-size: 100px;
 	text-transform: uppercase;
 	color: #C4515C;
 	text-shadow: 2px 2px 2px #FFF;
@@ -1280,9 +1280,11 @@ audio {
         padding: 10px;
         text-transform: uppercase;
         font-family: 'Signika', sans-serif;
-        font-weight: 700;
+        font-weight: 1200;
+		font-size: 50px;
         color: #fff;
         background-color: #466baf;
+		margin-bottom: 600px;
 }
     .btn-primary:hover,
     .btn-primary:focus,
