@@ -12,105 +12,99 @@ body {
 	display: none;
 }
 .peach {
-	background-color: #FFDAB9;
-	
-}
-.peach-after {
-	-webkit-animation:peach_alive linear 8s infinite;
-	-moz-animation:peach_alive linear 8s infinite;
-	-o-animation:peach_alive linear 8s infinite;
-	-ms-animation:peach_alive linear 8s infinite;
-	animation:peach_alive linear 8s infinite;
+	background-color: #87CEEB; /* Sky-blue variant */
 }
 
 @-webkit-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #87CEEB; /* Sky-blue variant */
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #7EC8E3; /* Sky-blue variant */
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #87CEEB; /* Sky-blue variant */
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #4682B4; /* Sky-blue variant */
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #ADD8E6; /* Sky-blue variant */
 	}
 }
+
 @-moz-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #87CEEB; /* Sky-blue variant */
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #7EC8E3; /* Sky-blue variant */
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #87CEEB; /* Sky-blue variant */
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #4682B4; /* Sky-blue variant */
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #ADD8E6; /* Sky-blue variant */
 	}
 }
 
 @-o-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #87CEEB; /* Sky-blue variant */
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #7EC8E3; /* Sky-blue variant */
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #87CEEB; /* Sky-blue variant */
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #4682B4; /* Sky-blue variant */
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #ADD8E6; /* Sky-blue variant */
 	}
 }
 
 @-ms-keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #87CEEB; /* Sky-blue variant */
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #7EC8E3; /* Sky-blue variant */
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #87CEEB; /* Sky-blue variant */
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #4682B4; /* Sky-blue variant */
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #ADD8E6; /* Sky-blue variant */
 	}
 }
 
 @keyframes peach_alive {
 	0%{
-		background-color: #FFDAB9;
+		background-color: #87CEEB; /* Sky-blue variant */
 	}
 	25%{
-		background-color: #FFE4B5;
+		background-color: #7EC8E3; /* Sky-blue variant */
 	}
 	50%{
-		background-color: #FFDAB9;
+		background-color: #87CEEB; /* Sky-blue variant */
 	}
 	75%{
-		background-color: #FFEFD5;
+		background-color: #4682B4; /* Sky-blue variant */
 	}
 	100%{
-		background-color: #FFDAB9;
+		background-color: #ADD8E6; /* Sky-blue variant */
 	}
 }
+
 
 
 .bulb {
@@ -1115,70 +1109,70 @@ audio {
 	background-image: url('b7.png');
 }
 .balloons-rotate-behaviour-one {
-	-webkit-animation: balloons_rotate_one linear 10s infinite;
-	-webkit-transform: rotate(30deg);
-	-moz-animation: balloons_rotate_one linear 10s infinite;
-	-moz-transform: rotate(30deg);
-	-o-animation: balloons_rotate_one linear 10s infinite;
-	-o-transform: rotate(30deg);
-	-ms-animation: balloons_rotate_one linear 10s infinite;
-	-ms-transform: rotate(30deg);
-	animation: balloons_rotate_one linear 10s infinite;
-	transform: rotate(30deg);
+	-webkit-animation: balloons_rotate_one linear 20s infinite;
+	-webkit-transform: rotate(10deg);
+	-moz-animation: balloons_rotate_one linear 20s infinite;
+	-moz-transform: rotate(10deg);
+	-o-animation: balloons_rotate_one linear 20s infinite;
+	-o-transform: rotate(10deg);
+	-ms-animation: balloons_rotate_one linear 20s infinite;
+	-ms-transform: rotate(10deg);
+	animation: balloons_rotate_one linear 20s infinite;
+	transform: rotate(10deg);
 }
 @-webkit-keyframes balloons_rotate_one {
 	0% {
-		-webkit-transform: rotate(30deg);
+		-webkit-transform: rotate(10deg);
 	}
 	50% {
-		-webkit-transform: rotate(-30deg);
+		-webkit-transform: rotate(-10deg);
 	}
 	100% {
-		-webkit-transform: rotate(30deg);
+		-webkit-transform: rotate(10deg);
 	}
 }
 @-moz-keyframes balloons_rotate_one {
 	0% {
-		-moz-transform: rotate(30deg);
+		-moz-transform: rotate(10deg);
 	}
 	50% {
-		-moz-transform: rotate(-30deg);
+		-moz-transform: rotate(-10deg);
 	}
 	100% {
-		-moz-transform: rotate(30deg);
+		-moz-transform: rotate(10deg);
 	}
 }
 @-o-keyframes balloons_rotate_one {
 	0% {
-		-o-transform: rotate(30deg);
+		-o-transform: rotate(10deg);
 	}
 	50% {
-		-o-transform: rotate(-30deg);
+		-o-transform: rotate(-10deg);
 	}
 	100% {
-		-o-transform: rotate(30deg);
+		-o-transform: rotate(-10deg);
 	}
 }
 @-ms-keyframes balloons_rotate_one {
 	0% {
-		-ms-transform: rotate(30deg);
+		-ms-transform: rotate(10deg);
 	}
 	50% {
-		-ms-transform: rotate(-30deg);
+		-ms-transform: rotate(-10deg);
 	}
 	100% {
-		-ms-transform: rotate(30deg);
+		-ms-transform: rotate(10deg);
 	}
 }
 @keyframes balloons_rotate_one {
 	0% {
-		transform: rotate(30deg);
+		transform: rotate(10deg);
 	}
 	50% {
-		transform: rotate(-30deg);
+		transform: rotate(-10deg);
 	}
 	100% {
-		transform: rotate(30deg);
+		transform: rotate(10deg);
 	}
 }
 .balloons-rotate-behaviour-two {
